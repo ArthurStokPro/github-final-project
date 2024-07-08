@@ -16,11 +16,11 @@
    # Output:
    # simple interest = p*t*r
 
-   echo "Enter the principal:"
+   echo "Enter the principal now:"
    read p
-   echo "Enter rate of interest per year:"
+   echo "Enter rate of interest per year now:"
    read r
-   echo "Enter time period in years:"
+   echo "Enter time period in years now:"
    read t
 
    s=`expr $p \* $t \* $r / 100`
